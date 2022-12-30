@@ -395,6 +395,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2204277403068183319, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204277403068183319, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 2204277403068183319, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0.0586586
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204277403068183319, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.11322212
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228723160942222415, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888389629165240373, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
+      propertyPath: _arrowPrefab
+      value: 
+      objectReference: {fileID: 6703081735547995397, guid: 3d5f262b6f9292c4c8f7f4293148a891, type: 3}
     - target: {fileID: 4888389629165240394, guid: 5cf63c52f69413e4daf9a30198a39c0a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -549,9 +573,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6176901189353325848, guid: 1ec6cf6573274054e8b136e56fc569e5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1ff476c61d5dde4caf9b94fdc65656e, type: 2}
+    - target: {fileID: 6176901189353325849, guid: 1ec6cf6573274054e8b136e56fc569e5, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6176901189353325850, guid: 1ec6cf6573274054e8b136e56fc569e5, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176901189353325850, guid: 1ec6cf6573274054e8b136e56fc569e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 6176901189353325850, guid: 1ec6cf6573274054e8b136e56fc569e5, type: 3}
       propertyPath: m_LocalPosition.x

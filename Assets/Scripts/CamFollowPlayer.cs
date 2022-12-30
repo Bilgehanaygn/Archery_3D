@@ -12,5 +12,6 @@ public class CamFollowPlayer : MonoBehaviour
         Vector3 nextPos = _cameraTarget.position + _dist;
         Vector3 instantPos = Vector3.Lerp(transform.position, nextPos, targetSpeed * Time.deltaTime);
         transform.position = instantPos;
+        
     }
 }
